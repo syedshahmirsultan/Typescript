@@ -1,0 +1,25 @@
+{
+  "name": "shahmir-advengame",
+  "version": "1.0.1",
+  "description": "",
+  "main": "bin/game.js",
+  "type": "module",
+  "bin": {
+    "shahmir-advengame": "bin/game.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4",
+    "random-int": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3"
+  }
+}
