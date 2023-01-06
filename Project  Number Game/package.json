@@ -1,0 +1,28 @@
+{
+  "name": "shahmirnumbgame",
+  "version": "1.0.2",
+  "description": "",
+  "main": "bin/type.js",
+  "type": "module",
+  "bin": {
+    "shahmirnumbergame-1": "bin/type.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.10"
+  },
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4",
+    "random-int": "^3.0.0"
+  }
+}
