@@ -1,0 +1,22 @@
+{
+  "name": "shahmir-quizapp",
+  "version": "1.0.1",
+  "description": "",
+  "main": "quiz.js",
+  "type": "module",
+  "bin": {
+    "shahmir-quizapp": "quiz.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  }
+}
